@@ -47,10 +47,10 @@ const MenuBar = () => {
     <div>
       <AppBar
         position="fixed"
-        sx={{ backgroundColor: "#111", boxShadow: "none" }}
+        sx={{ backgroundColor: "#444", boxShadow: "none" }}
       >
         <Toolbar sx={{ justifyContent: "space-between" }}>
-          <Typography variant="h6" sx={{ fontSize: "30px" }}>
+          <Typography variant="h5" sx={{ fontSize: "20px" }}>
             PORTFOLIO
           </Typography>
 
@@ -63,7 +63,7 @@ const MenuBar = () => {
                   cursor: "pointer",
                   display: "flex",
                   flexDirection: "column",
-                  justifyContent: "space-between",
+                  // justifyContent: "space-between",
                   height: "20px",
                   width: "30px",
                 }}
@@ -83,9 +83,11 @@ const MenuBar = () => {
               {menuOpen && (
                 <div
                   style={{
+                    width:"100%",
                     position: "absolute",
                     top: "50px",
-                    right: "10px",
+                    // right: "20px",
+                    // left:"20px",
                     backgroundColor: "#333",
                     borderRadius: "5px",
                     zIndex: 10,
@@ -121,7 +123,7 @@ const MenuBar = () => {
             <motion.div
               initial="hidden"
               animate="visible"
-              style={{ display: "flex", gap: "15px" }}
+              style={{ display: "flex", gap: "5px" }}
             >
               {menuItems.map((item, index) => (
                 <motion.div

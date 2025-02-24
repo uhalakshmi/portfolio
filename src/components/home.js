@@ -1,14 +1,14 @@
 import React from "react";
 import { Typography, Container, Box, Button } from "@mui/material";
-import sudha from "./../assests/sudha-img.jpg";
-import resume from "./../assests/Sudha-Rani-Resume.pdf";
+import sudha from "./../assests/UhaProfile.jpg";
+import resume from "./../assests/Uha_resume.pdf";
 
 const Home = () => {
   return (
     <div>
       <Box
         sx={{
-          padding: "80px 20px",
+          padding: "80px 20px 30px 20px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -67,9 +67,9 @@ const Home = () => {
                 fontSize: { xs: "28px", sm: "34px", md: "40px" },
               }}
             >
-              Uha Lakshmi
+              UHA LAKSHMI
             </Typography>
-            <Typography
+            {/* <Typography
               variant="h5"
               component="h2"
               gutterBottom
@@ -79,8 +79,8 @@ const Home = () => {
                 fontSize: { xs: "20px", sm: "24px", md: "28px" },
               }}
             >
-              Frontend Developer
-            </Typography>
+              FRONTEND DEVELOPER
+            </Typography> */}
             <Typography
               variant="body1"
               sx={{
@@ -90,9 +90,9 @@ const Home = () => {
                 fontSize: { xs: "14px", sm: "16px", md: "18px" },
               }}
             >
-               I have 3.5 years of experience in software development and desgin
+               I have 3.5 years of experience in software development and designing.
                Currently, I specialize in building web application using technologies like
-               React,Javascript, Typescript and Redux 
+               React JS, Javascript, Typescript and Redux.
             </Typography>
             <a
               href={resume}

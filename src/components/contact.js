@@ -24,12 +24,12 @@ const Contact = () => {
       <Container
         maxWidth="lg"
         sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          minHeight: "100vh",
-          paddingTop: "100px",
+          // display: "flex",
+          // flexDirection: "column",
+          // alignItems: "center",
+          // justifyContent: "center",
+          // minHeight: "100vh",
+          paddingTop: "50px",
         }}
       >
         <Typography
@@ -40,12 +40,18 @@ const Contact = () => {
             textUnderlineOffset: "5px",
             textDecorationColor: "#444",
             fontFamily: "'Roboto Slab', serif",
-            paddingBottom: "40px",
+            // paddingBottom: "40px",
             alignSelf: "flex-start",
           }}
         >
           Contact Me
         </Typography>
+        <Typography sx={{
+            textDecorationColor: "#444",
+            fontFamily: "'Roboto Slab', serif",
+            // paddingBottom: "10px",
+            alignSelf: "flex-start",
+          }}>Submit the form below to get in touch with me</Typography>
 
         <Box
           sx={{
@@ -79,6 +85,7 @@ const Contact = () => {
                   color: "#fff",
                   height: "100%",
                 },
+                borderRadius:"5px"
               }}
             />
 
@@ -96,6 +103,7 @@ const Contact = () => {
                   color: "#fff",
                   height: "100%",
                 },
+                borderRadius:"5px"
               }}
             />
 
@@ -114,6 +122,7 @@ const Contact = () => {
                   color: "#fff",
                   minHeight: "150px",
                 },
+                borderRadius:"5px"
               }}
             />
 
@@ -125,7 +134,7 @@ const Contact = () => {
                 backgroundColor: "#444",
                 color: "#fff",
                 marginTop: "16px",
-                fontSize: "18px",
+                fontSize: "12px",
                 padding: "6px 12px",
                 width: "auto",
                 alignSelf: "center",
@@ -134,7 +143,7 @@ const Contact = () => {
                 },
               }}
             >
-              Send Message
+              Let's Talk
             </Button>
           </form>
         </Box>

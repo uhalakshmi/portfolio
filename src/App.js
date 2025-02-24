@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div
       style={{
-        backgroundColor: "#000",
+        backgroundColor: "gray",
         color: "#fff",
         minHeight: "100vh",
         margin: 0,
@@ -24,7 +24,7 @@ const App = () => {
       <MenuBar />
       <Container
         maxWidth="lg"
-        sx={{ marginTop: "50px", paddingBottom: "40px" }}
+        sx={{ marginTop: "20px", paddingBottom: "20px" }}
       >
         <Element name="home" className="element">
           <Home />

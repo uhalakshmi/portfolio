@@ -9,8 +9,9 @@ import {
   CardContent,
   Modal,
 } from "@mui/material";
-import OUP from "./../assests/oup.png";
-import ONLINE from "./../assests/online.jpg";
+import abbvie from "./../assests/abbvie.jpeg";
+import ebay from "./../assests/ebay.png";
+import ecommerce from "./../assests/eCommerce.png"
 
 const Project = () => {
   const [activeProject, setActiveProject] = useState(null);
@@ -20,50 +21,81 @@ const Project = () => {
       try {
         const data = [
           {
-            name: "OUP Engineering Technology- MY MATH",
-            image: OUP,
+            name: "AbbVie OUS Pricing Approval ",
+            image: abbvie,
             details: {
-              client: "Oxford University Press",
-              category: "Education",
-              duration: "August 2022 - March 2024",
+              client: "Abbvie",
+              category: "Pharma",
+              duration: "Jan 2022 - Present",
               technologies:
-                "HTML, JavaScript, CSS, React JS, Material UI, Micro Frontend, API, Git, Jira",
+                "HTML, CSS,JavaScript, TypeScript, React JS, AG-Grid, Unity Design, Redux, Palantir Foundry, Git, Jira",
               description:
-                "This project is designed to provide an engaging and structured learning experience for students across various grade levels. It offers a user-friendly interface for both students and teachers, promoting efficient learning and progress tracking. Students can log in to their accounts to view their learning progress, access grade-specific chapters, and complete homework, practice, and assignment tasks. Teachers, serving as administrators, manage student accounts, assign tasks, monitor performance, and assess homework and assignments. The platform allows teachers to track each student’s progress in real time, ensuring personalized feedback and grading. This practical learning tool fosters interactive and comprehensive math education for students.",
+                "Developed a responsive web-based platform using React.js, TypeScript and Ag-Grid to streamline pricing and proposal workflows. It allows users to create, manage, and track proposals seamlessly while leveraging dynamic data handling for enhanced efficiency. ",
               responsibilities: [
-                "Designed and implemented new user interfaces to enhance user experience and accessibility.",
-                "Integrated new features to enhance application capabilities, driven by business requirements and user feedback.",
-                "Integrated APIs to facilitate seamless data exchange and improve application functionality.",
-                "Refactored and optimized code to enhance application performance, reducing load times and boosting efficiency.",
-                "Analyzed and resolved production issues to maintain application stability and ensure a seamless user experience.",
-                "Collaborated with back-end developers to integrate user interface elements into applications & Collaborate with designers to create visually appealing layouts for student progress tracking, chapter navigation, homework, practice, and assignment sessions.",
-                "Conducted code reviews and provided mentorship to freshers, fostering a collaborative and knowledge sharing environment.",
-                "Practiced in Agile ceremonies, such as sprint planning and retrospectives, to ensure smooth project progress.",
+                "Developed a dynamic web-based application using React.js, AG Grid, and Unity Design components to streamline pricing and proposal workflows.",
+                "Designed and implemented user interfaces for proposal creation, management, and tracking, ensuring an intuitive and seamless user experience.",
+                "Integrated AG Grid for efficient data handling, enabling dynamic display and interaction with large datasets.",
+                "Integrated Palantir Foundry Backend methods for efficient data retrieval, processing, and storage, ensuring seamless integration between frontend and backend.",
+                "Collaborated with cross-functional teams to ensure accurate implementation of pricing strategies and business workflows.",
+                "Enhanced application scalability and performance through modular design and reusable components.",
+                "Implemented workflows for managing pricing inputs, ensuring consistency and accuracy across proposals.",
+                "Conducted testing and debugging to maintain high-quality code and optimal performance.",
+                "Provided support for UI/UX enhancements to align with user feedback and business requirements.",
+                "Refactored and optimized code to improve application performance and maintainability.",
+
               ],
             },
           },
           {
-            name: "Online Exam Portal",
-            image: ONLINE,
-
+            name: "eBay Ecommerce Application",
+            image: ebay,
             details: {
-              client: "Internal Project",
-              category: "Education",
-              duration: "March 2022- July 2022",
+              client: "eBay",
+              category: "Ecommerce",
+              duration: "Aug 2022 - Dec 2023",
               technologies:
-                "HTML, JavaScript, CSS, React Js, Redux, Node.js, Express JS, Postman, Bootstrap, MongoDB, Git",
+                "HTML, JavaScript, CSS, React Js, Redux, Postman, Bootstrap, Jest, Git",
               description:
-                "The project is an online exam portal designed to provide users with the ability to purchase and take mock exams for various purposes, such as government exams, foreign exams, or interview preparation. Upon logging in, users create a personalized profile that displays the categories of exams they are registered for. From the profile, users can select their desired exam category, which will take them to a dedicated dashboard showcasing available exams.To attempt an exam, users need to purchase it through the platform. Once the purchase is complete, an exam date is scheduled, and users are required to take the exam on the assigned day. After completing the exam, users can view their scores directly on the platform. The portal is designed to offer a seamless and user-friendly experience, ensuring easy navigation and accessibility for all users.",
+                "Developed a Web Application for eBay Using React JS. It is a global online marketplace, where Individuals and business can buy and sell a wide range of products and services. The platform operates as both an auction and fixed-price marketplace, allowing sellers to list items for sale, while buyers can bid on or purchase them directly. eBay connects millions of buyers and sellers worldwide, offering categories that include electronics, fashion, home goods, collectibles.",
               responsibilities: [
-                "Implemented responsive and user friendly React components, ensuring high-quality code and optimal performance.",
-                "Designed and implemented server-side logic using Node.js and Express.js, ensuring efficient and scalable code.",
-                "Created and managed RESTful APIs to enable seamless communication between the client and server.",
-                "Designed, developed and optimized MongoDB database, including schema design and indexing.",
-                "Implemented data models and performed CRUD operations to manage application data effectively.",
-                "Utilized Debugging tools and technologies to identify and resolve issues in both development and production environments.",
-                "Conducted code reviews, identified and fixed bugs, and optimized application performance.",
-                "Implemented continuous integration and development (CI/CD) practices to enhance development workflow and productivity.",
-                "Provided clear and concise technical documentation to facilitate knowledge sharing.",
+                "Designed and implemented new user interfaces to enhance user experience and accessibility.",
+                "Integrated new features to enhance application capabilities, driven by business requirements and user feedback.",
+                "Integrated Rest API’S ensuring a seamless transition of core functionalities and improved user experience.  ",
+                "Implemented Unit Testing and Integration Testing to enhance the application performance.  ",
+                "Refactored and optimized code to enhance application performance, reducing load times and boosting efficiency.",
+                "Analyzed and resolved production issues to maintain application stability and ensure a seamless user experience. ",
+                "Practiced in Agile ceremonies, such as sprint planning and retrospectives, to ensure smooth project progress. ",
+                "Designed and implemented a new high-visibility responsive user interface screen, enhancing the project’s usability and visual appeal.",
+                "Enhanced existing project functionality by integrating and deploying new features, aligning with project goals and client requirements. ",
+                "Identified, tracked, and resolved bugs to ensure the application’s stability and performance.   ",
+                "Integrated APIs to facilitate seamless data exchange and improve application functionality.   ",
+                "Utilized Splunk for real-time monitoring and debugging of production incidents, ensuring rapid issue resolution and system stability.  ",
+                "Created comprehensive technical documentation to support ongoing maintenance and future development.  ",
+
+              ],
+            },
+          },
+          {
+            name: "LiveStock",
+            image: ecommerce,
+            details: {
+              client: "Internal",
+              category: "Ecommerce",
+              duration: "Feb 2022 - July 2022",
+              technologies:
+                "HTML, JavaScript, CSS, React Js, Redux, Postman, Bootstrap, Jest, Git",
+              description:
+                "This platform connects farmers, breeders, and buyers in the livestock industry. Browse and purchase a wide range of livestock, including cattle, poultry, goats, and more. Explore detailed listings and view health records. Whether you are a farmer seeking quality animals or a buyer looking to invest, livestock platform simplifies the process.",
+              responsibilities: [
+                `Implemented responsive and user friendly React components, ensuring high-quality code and optimal performance.`,
+                `Designed and implemented server-side logic using Node.js and Express.js, ensuring efficient and scalable code.`,
+                `Created and managed RESTful APIs to enable seamless communication between the client and server.`,
+                `Designed, developed and optimized MongoDB database, including schema design and indexing.`,
+                `Implemented data models and performed CRUD operations to manage application data effectively.`,
+                `Utilized Debugging tools and technologies to identify and resolve issues in both development and production environments.`,
+                `Conducted code reviews, identified and fixed bugs, and optimized application performance.`,
+                `Implemented continuous integration and development (CI/CD) practices to enhance development workflow and productivity.`,
+                `Provided clear and concise technical documentation to facilitate knowledge sharing.`
               ],
             },
           },
@@ -152,8 +184,8 @@ const Project = () => {
                       sx={{
                         width: "80%",
                         maxHeight: "80%",
-                        backgroundColor: "#333",
-                        color: "#fff",
+                        backgroundColor: "white",
+                        color: "black",
                         borderRadius: "8px",
                         padding: "20px",
                         overflowY: "auto",

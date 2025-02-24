@@ -23,7 +23,7 @@ const About = () => {
               fontFamily: "'Roboto Slab', serif",
             }}
           >
-            About Me
+            About
           </Typography>
           <Typography
             variant="body1"
@@ -31,18 +31,18 @@ const About = () => {
               fontFamily: "'Roboto', sans-serif",
               lineHeight: "1.6",
               animation: "fadeIn 1.5s ease-in-out",
-              paddingTop: "50px",
+              paddingTop: "20px",
             }}
           >
-            Frontend developer with 3 years of hands-on experience in designing
+            Frontend developer with 3+ years of hands-on experience in designing
             and implementing scalable web applications. Proficient in utilizing
-            a diverse tech stack including JavaScript, Redux and React.js to
-            deliver robust solutions. Skilled in micro frontends architecture,
-            ensuring modular and maintainable codebases. Proven ability to
-            collaborate effectively in cross-functional teams to meet project
-            goals and deadlines. Known for delivering high-quality solutions.
-            Strong problem-solving abilities and passionate about continuously
-            learning and implementing best practices in software development to
+            a diverse tech stack including JavaScript, Redux and React.js to 
+            deliver robust solutions. Skilled in micro frontends architecture, 
+            ensuring modular and maintainable codebases. Proven ability to 
+            collaborate effectively in cross-functional teams to meet project 
+            goals and deadlines. Known for delivering high-quality solutions. 
+            Strong problem-solving abilities and passionate about continuously 
+            learning and implementing best practices in software development to 
             deliver exceptional user experiences.
           </Typography>
         </Box>

@@ -11,9 +11,9 @@ const Experience = () => {
   const experiences = [
     {
       title: "Cognizant Technology Solutions",
-      designation: "Developer",
-      years: "3 Years",
-      duration: "Dec-2021 → May-2024",
+      designation: "Frontend Developer",
+      years: "3.5 Years",
+      duration: "Oct 2021 → Present",
       companyImage: CTS,
     },
   ];
@@ -30,8 +30,8 @@ const Experience = () => {
         >
           <Box
             sx={{
-              padding: "40px 10px",
-              backgroundColor: "#000",
+              // padding: "40px 10px",
+              // backgroundColor: "#000",
               color: "#fff",
             }}
             id="experience"
@@ -55,7 +55,7 @@ const Experience = () => {
                 position: "relative",
                 padding: "20px",
                 fontFamily: "'Roboto', sans-serif",
-                paddingTop: "100px",
+                paddingTop: "20px",
               }}
             >
               {experiences.map((experience, index) => (
@@ -120,6 +120,7 @@ const Experience = () => {
                 </Box>
               ))}
               <VerticalTimeline>
+                
                 <VerticalTimelineElement
                   className="vertical-timeline-element--work"
                   contentStyle={{ background: "#366", color: "#000" }}
@@ -127,11 +128,9 @@ const Experience = () => {
                   iconStyle={{ background: "#fff" }}
                   icon={<WorkIcon />}
                 >
-                  <h3 className="vertical-timeline-element-title">
-                    Programmer Analyst Traniee
-                  </h3>
-                  <h4 className="vertical-timeline-element-subtitle">
-                    Dec 2021 - Dec 2022
+                  <h3 className="vertical-timeline-element-title">Associate</h3>
+                  <h4 className="vertical-timeline-element-subtitle" style={{marginTop:"10px"}}>
+                    Jan 2024 - Present
                   </h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -144,8 +143,8 @@ const Experience = () => {
                   <h3 className="vertical-timeline-element-title">
                     Programmer Analyst
                   </h3>
-                  <h4 className="vertical-timeline-element-subtitle">
-                    Dec 2022 - Jan 2024
+                  <h4 className="vertical-timeline-element-subtitle"  style={{marginTop:"10px"}}>
+                    Jan 2023 - Jan 2024
                   </h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -155,9 +154,11 @@ const Experience = () => {
                   iconStyle={{ background: "#fff" }}
                   icon={<WorkIcon />}
                 >
-                  <h3 className="vertical-timeline-element-title">Associate</h3>
-                  <h4 className="vertical-timeline-element-subtitle">
-                    Jan 2024 - May 2024
+                  <h3 className="vertical-timeline-element-title">
+                    Programmer Analyst Traniee
+                  </h3>
+                  <h4 className="vertical-timeline-element-subtitle"  style={{marginTop:"10px"}}>
+                    Oct 2021 - Dec 2022
                   </h4>
                 </VerticalTimelineElement>
               </VerticalTimeline>
