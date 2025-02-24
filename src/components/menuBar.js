@@ -69,13 +69,13 @@ const MenuBar = () => {
                 }}
               >
                 <span
-                  style={{ background: "#fff", height: "3px", width: "100%" }}
+                  style={{ background: "#fff", height: "3px", width: "100%", marginBottom :"3px" }}
                 ></span>
                 <span
-                  style={{ background: "#fff", height: "3px", width: "100%" }}
+                  style={{ background: "#fff", height: "3px", width: "100%" ,marginBottom :"3px" }}
                 ></span>
                 <span
-                  style={{ background: "#fff", height: "3px", width: "100%" }}
+                  style={{ background: "#fff", height: "3px", width: "100%",marginBottom :"3px"  }}
                 ></span>
               </div>
 
