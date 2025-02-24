@@ -6,8 +6,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_g8ugert", "template_vf5pdln", form.current, {
-        publicKey: "v2HgdG_oZ-6mVfyrK",
+      .sendForm("service_o7sxmkh", "template_034dghn", form.current, {
+        publicKey: "wn6woQyfXNvecsgSu",
       })
       .then(
         (result) => {
